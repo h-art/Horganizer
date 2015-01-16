@@ -1,5 +1,7 @@
 from .base import *
 
+SECRET_KEY = 'YourSuperSecretKey'
+
 ####################
 # turn off debugging
 DEBUG = False

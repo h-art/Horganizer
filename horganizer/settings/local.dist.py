@@ -1,5 +1,7 @@
 from .base import *
 
+SECRET_KEY = 'YourSuperSecretKey'
+
 ############################################
 # load staticfiles app for local development
 INSTALLED_APPS = INSTALLED_APPS + ('django.contrib.staticfiles',)
