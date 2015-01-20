@@ -28,6 +28,8 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+AUTH_PROFILE_MODULE = 'horganizer.UserProfile'
+
 ROOT_URLCONF = 'horganizer.urls'
 WSGI_APPLICATION = 'horganizer.wsgi.application'
 
