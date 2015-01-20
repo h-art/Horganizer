@@ -1,0 +1,646 @@
+[
+{
+    "fields": {
+        "model": "logentry",
+        "name": "log entry",
+        "app_label": "admin"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "permission",
+        "name": "permission",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "group",
+        "name": "group",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "user",
+        "name": "user",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "contenttype",
+        "name": "content type",
+        "app_label": "contenttypes"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "session",
+        "name": "session",
+        "app_label": "sessions"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "period",
+        "name": "period",
+        "app_label": "timetable"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "job",
+        "name": "job",
+        "app_label": "timetable"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "employee",
+        "name": "employee",
+        "app_label": "timetable"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "model": "role",
+        "name": "role",
+        "app_label": "timetable"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "fields": {
+        "expire_date": "2015-02-02T14:28:07.007Z",
+        "session_data": "NDY0NjMxMDE2YmVlNGRmMjQ4ZTM3NTU0Mzg5ODllNWJmNjQzNjEyMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImUyZTRiMDcxOGMzY2NmNDExNmYwNDQzMzkzZjJjYTY2ZDFkNzlhYWQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+    },
+    "model": "sessions.session",
+    "pk": "76a1k3w2uefd54bhtji33l2ioa7jpbrf"
+},
+{
+    "fields": {
+        "title": "Telecom Corporate"
+    },
+    "model": "timetable.job",
+    "pk": 1
+},
+{
+    "fields": {
+        "title": "TV Sorrisi e Canzoni"
+    },
+    "model": "timetable.job",
+    "pk": 2
+},
+{
+    "fields": {
+        "title": "Donna D"
+    },
+    "model": "timetable.job",
+    "pk": 3
+},
+{
+    "fields": {
+        "title": "Fendi"
+    },
+    "model": "timetable.job",
+    "pk": 4
+},
+{
+    "fields": {
+        "title": "GroupM mApp"
+    },
+    "model": "timetable.job",
+    "pk": 5
+},
+{
+    "fields": {
+        "title": "DEV"
+    },
+    "model": "timetable.role",
+    "pk": 1
+},
+{
+    "fields": {
+        "title": "Art Director"
+    },
+    "model": "timetable.role",
+    "pk": 2
+},
+{
+    "fields": {
+        "title": "Strategic"
+    },
+    "model": "timetable.role",
+    "pk": 3
+},
+{
+    "fields": {
+        "title": "Social Media Manager"
+    },
+    "model": "timetable.role",
+    "pk": 4
+},
+{
+    "fields": {
+        "title": "Project Manager"
+    },
+    "model": "timetable.role",
+    "pk": 5
+},
+{
+    "fields": {
+        "title": "Community Manager"
+    },
+    "model": "timetable.role",
+    "pk": 6
+},
+{
+    "fields": {
+        "title": "UX Designer"
+    },
+    "model": "timetable.role",
+    "pk": 7
+},
+{
+    "fields": {
+        "title": "Client Manager"
+    },
+    "model": "timetable.role",
+    "pk": 8
+},
+{
+    "fields": {
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_logentry",
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_logentry",
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_permission",
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_permission",
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_permission",
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_group",
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_group",
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_group",
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_user",
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_user",
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_user",
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_contenttype",
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_contenttype",
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_contenttype",
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_session",
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_session",
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_session",
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_period",
+        "name": "Can add period",
+        "content_type": [
+            "timetable",
+            "period"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_period",
+        "name": "Can change period",
+        "content_type": [
+            "timetable",
+            "period"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_period",
+        "name": "Can delete period",
+        "content_type": [
+            "timetable",
+            "period"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_job",
+        "name": "Can add job",
+        "content_type": [
+            "timetable",
+            "job"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_job",
+        "name": "Can change job",
+        "content_type": [
+            "timetable",
+            "job"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_job",
+        "name": "Can delete job",
+        "content_type": [
+            "timetable",
+            "job"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_employee",
+        "name": "Can add employee",
+        "content_type": [
+            "timetable",
+            "employee"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_employee",
+        "name": "Can change employee",
+        "content_type": [
+            "timetable",
+            "employee"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_employee",
+        "name": "Can delete employee",
+        "content_type": [
+            "timetable",
+            "employee"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "add_role",
+        "name": "Can add role",
+        "content_type": [
+            "timetable",
+            "role"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "change_role",
+        "name": "Can change role",
+        "content_type": [
+            "timetable",
+            "role"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "codename": "delete_role",
+        "name": "Can delete role",
+        "content_type": [
+            "timetable",
+            "role"
+        ]
+    },
+    "model": "auth.permission"
+},
+{
+    "fields": {
+        "username": "admin",
+        "first_name": "Matteo",
+        "last_name": "Rosati",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-01-19T14:28:07Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$15000$EzYqCwfZo0XF$oocgBSGHQ/m5HbBGJ9EjLBgiCxFYI4RSwxKyQLghXko=",
+        "email": "mrosati@h-art.com",
+        "date_joined": "2015-01-19T14:27:57Z"
+    },
+    "model": "auth.user"
+},
+{
+    "fields": {
+        "username": "rbutti",
+        "first_name": "Roberto",
+        "last_name": "Butti",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-01-19T14:28:42Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$15000$lQEWchsh7sn0$bt0gc7uqHn0SaZp9d89p+5er/IZHlJmjFKaMlzG+IQ4=",
+        "email": "rbutti@h-art.com",
+        "date_joined": "2015-01-19T14:28:42Z"
+    },
+    "model": "auth.user"
+},
+{
+    "fields": {
+        "username": "ndelazzari",
+        "first_name": "Nicola",
+        "last_name": "De Lazzari",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-01-19T14:29:13Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$15000$dHEhQQsPpg73$QKKORQPyvoio6NWD9sk+u/WfgXeOtAavhy5xz5IlsiA=",
+        "email": "ndelazzari@h-art.com",
+        "date_joined": "2015-01-19T14:29:13Z"
+    },
+    "model": "auth.user"
+},
+{
+    "fields": {
+        "username": "ebertolin",
+        "first_name": "Elena",
+        "last_name": "Bertolin",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-01-19T14:29:44Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$15000$rcS0ZCqN5vID$owVu/3oBsF4nbB8fpQMlqs8AiKPhnItEBgkQQtK06fo=",
+        "email": "ebertolin@h-art.com",
+        "date_joined": "2015-01-19T14:29:44Z"
+    },
+    "model": "auth.user"
+},
+{
+    "fields": {
+        "username": "abarison",
+        "first_name": "Angela",
+        "last_name": "Barison",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-01-19T14:30:14Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$15000$0Ix0us6zTmkj$8zQmrupIbIVP6RVsv7UR9VfF6DsEcxQrYIYVpfNY9kI=",
+        "email": "abarison@h-art.com",
+        "date_joined": "2015-01-19T14:30:14Z"
+    },
+    "model": "auth.user"
+},
+{
+    "fields": {
+        "role": 1,
+        "user": [
+            "rbutti"
+        ]
+    },
+    "model": "timetable.employee",
+    "pk": 1
+},
+{
+    "fields": {
+        "role": 1,
+        "user": [
+            "ndelazzari"
+        ]
+    },
+    "model": "timetable.employee",
+    "pk": 2
+},
+{
+    "fields": {
+        "role": 2,
+        "user": [
+            "ebertolin"
+        ]
+    },
+    "model": "timetable.employee",
+    "pk": 3
+},
+{
+    "fields": {
+        "role": 3,
+        "user": [
+            "abarison"
+        ]
+    },
+    "model": "timetable.employee",
+    "pk": 4
+},
+{
+    "fields": {
+        "role": 1,
+        "user": [
+            "admin"
+        ]
+    },
+    "model": "timetable.employee",
+    "pk": 5
+}
+]
