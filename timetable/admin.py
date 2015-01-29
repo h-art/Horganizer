@@ -2,11 +2,11 @@ from django.contrib import admin
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.admin import UserAdmin
-from timetable.models import Period, Job, Role, Employee
+from timetable.models import Slot, Job, Role, Employee
 
-class PeriodAdminForm(forms.ModelForm):
+class SlotAdminForm(forms.ModelForm):
     class Meta:
-        model = Period
+        model = Slot
         fields = "__all__"
 
     def clean(self):
@@ -22,14 +22,14 @@ class EmployeeInline(admin.StackedInline):
 class UserAdmin(UserAdmin):
     inlines = (EmployeeInline, )
 
-class PeriodAdmin(admin.ModelAdmin):
-    form = PeriodAdminForm
+class SlotAdmin(admin.ModelAdmin):
+    form = SlotAdminForm
 
 # re-register admin model
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
 
 admin.site.register(Role)
-admin.site.register(Period, PeriodAdmin)
+admin.site.register(Slot, SlotAdmin)
 admin.site.register(Job)
 
