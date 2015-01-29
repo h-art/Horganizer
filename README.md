@@ -15,9 +15,23 @@ to create the environment. Activate it using
 
 ## Local development
 
+First of all, run migrations
+
+    $ ./manage.py migrate --settings horganizer.settings.local
+
+Then you will probably need to create a super user for the admin app
+
+    ./manage.py createsuperuser --settings horganizer.settings.local
+
+If you want to do this in just one command, simply run
+
+    ./manage.py syncdb --settings horganizer.settings.local
+
+At this point you can run Django's internal webserver to serve the application
+
     $ ./manage.py runserver --settings horganizer.settings.local
 
-be sure to have settings/local.py configuration file (you can copy the dist file
+Be sure to have settings/local.py configuration file (you can copy the dist file
 located in horganizer/settings). You can also run the project using uwsgi
 
     $ DJANGO_SETTINGS_MODULE=horganizer.settings.local uwsgi --http :8000 --module horganizer.wsgi
