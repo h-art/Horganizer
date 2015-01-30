@@ -9,6 +9,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DEBUG = True
 TEMPLATE_DEBUG = True
 
+SECRET_KEY = 'YourSuperSecretKey'
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
